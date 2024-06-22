@@ -1,0 +1,60 @@
+body[data-theme="dark"] .overlay {
+  background-image: linear-gradient(
+      rgba(22, 28, 36, 0.8),
+      rgba(22, 28, 36, 0.8)
+    ),
+    url(/images/root_overlay.jpg);
+}
+body[data-theme="light"] .overlay {
+  background-image: linear-gradient(
+      rgba(249, 250, 251, 0.2),
+      rgba(249, 250, 251, 0.2)
+    ),
+    url(/images/root_overlay.jpg);
+}
+
+.main {
+  padding-top: 70px;
+  flex-grow: 1;
+}
+
+.main_div {
+  padding-top: 80px;
+  position: relative;
+  padding-bottom: 80px;
+}
+
+.main_div_container {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.hero_text {
+  z-index: 1;
+}
+
+.overlay {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  position: absolute;
+  transform: scaleX(-1);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.main_container {
+  padding: 160px 20px !important;
+}
+
+@media (width < 640px) {
+  .hero_text {
+    font-size: 2.05rem !important;
+  }
+  .stack {
+    text-align: center;
+  }
+}

@@ -1,0 +1,51 @@
+.stack {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.h2 {
+  margin-bottom: 30px !important;
+}
+
+.div {
+  gap: 80px;
+  display: flex;
+  border-radius: 16px;
+  justify-content: center;
+}
+
+.child_stack {
+  width: 383px;
+  padding: 40px;
+  border-radius: 16px;
+  border: 1px dashed rgba(145, 158, 171, 0.2);
+}
+
+.h4 {
+  position: relative;
+}
+
+.underline {
+  left: 0px;
+  bottom: 4px;
+  width: 40px;
+  height: 8px;
+  opacity: 0.45;
+  position: absolute;
+}
+
+.checkmark {
+  gap: 8px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.checkmarks_stack {
+  gap: 24px;
+  margin-top: 40px;
+}
+
+.button {
+  margin-top: 80px !important;
+}

@@ -1,0 +1,48 @@
+.icon_button {
+  top: 22px;
+  left: 85px;
+  width: 26px;
+  height: 26px;
+  padding: 0px !important;
+  z-index: 3333 !important;
+  position: fixed !important;
+  backdrop-filter: blur(6px);
+  border: 1px dashed rgba(145, 158, 171, 0.24) !important;
+}
+
+.stack {
+  height: 100%;
+  position: fixed;
+  padding-bottom: 16px;
+  border-right: 1px dashed rgba(145, 158, 171, 0.24);
+}
+
+.logo {
+  margin: 16px auto;
+}
+
+.links_stack {
+  gap: 8px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.list_item_button {
+  max-width: 85px;
+  min-height: 56px;
+  line-height: 16px;
+  text-align: center;
+  padding-left: 24px;
+  align-items: center;
+  padding-right: 24px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.list_item_text {
+  margin-bottom: auto !important;
+}
+
+.divider {
+  margin-bottom: 4px !important;
+}

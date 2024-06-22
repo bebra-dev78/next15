@@ -1,0 +1,103 @@
+.toolbar {
+  margin-right: 10px;
+  justify-content: flex-end;
+  transition: height 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    background-color 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.actions {
+  gap: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.avatar {
+  width: 36px !important;
+  height: 36px !important;
+}
+.avatar:hover {
+  border-radius: 16px;
+}
+
+.icon_button {
+  width: 39.5px;
+  height: 39.5px;
+}
+
+.user {
+  padding: 16px 16px 12px;
+}
+
+.links_stack {
+  gap: 2px;
+  padding: 8px;
+}
+
+.menu_item {
+  margin: 8px !important;
+  font-weight: 700 !important;
+}
+
+.drawer {
+  width: 100%;
+  max-width: 420px;
+  backdrop-filter: blur(20px);
+}
+
+.hero {
+  display: flex;
+  min-height: 68px;
+  align-items: center;
+  flex-direction: row;
+  padding: 16px 8px 10px 20px;
+  justify-content: space-between;
+}
+
+.tabs_stack {
+  padding-left: 20px;
+  padding-right: 8px;
+}
+
+.tab {
+  padding: 0 !important;
+  min-width: 48px !important;
+  min-height: 48px !important;
+}
+
+.content {
+  height: 100%;
+  overflow: hidden;
+}
+
+.divider {
+  border-style: solid !important;
+}
+
+.list_item_button {
+  padding: 20px !important;
+  margin-bottom: 0 !important;
+  border-radius: 0 !important;
+  border-width: 0 0 1px !important;
+  border-bottom-style: dashed !important;
+  border-bottom-color: rgba(145, 158, 171, 0.2) !important;
+}
+
+.list_img {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(145, 158, 171, 0.12);
+}
+
+.list_text {
+  flex-grow: 1;
+  display: flex;
+}
+
+.read_button {
+  padding: 8px;
+}

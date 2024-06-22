@@ -1,0 +1,30 @@
+.main_stack {
+  margin: auto;
+  max-width: 400px;
+  min-height: 100vh;
+  padding-top: 96px;
+  text-align: center;
+  padding-bottom: 96px;
+  justify-content: center;
+}
+
+.link {
+  display: flex;
+  margin: 24px auto;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.hover:hover {
+  text-decoration: underline;
+}
+
+.form_stack {
+  gap: 24px;
+}
+
+.tgs_player {
+  width: 250px;
+  height: 250px;
+}

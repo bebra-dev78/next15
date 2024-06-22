@@ -1,0 +1,38 @@
+.card {
+  padding: 0;
+  background-image: none;
+}
+
+.collapse {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.span {
+  height: 24px;
+  font-size: 12px;
+  cursor: default;
+  font-weight: 700;
+  padding-left: 6px;
+  padding-right: 6px;
+  border-radius: 6px;
+  align-items: center;
+  display: inline-flex;
+  color: rgb(145, 158, 171);
+  background-color: rgba(145, 158, 171, 0.16);
+}
+
+.fab {
+  background-color: rgb(81, 25, 183);
+  box-shadow: rgba(142, 51, 255, 0.24) 0px 8px 16px 0px;
+}
+.fab:hover {
+  box-shadow: none;
+  background-color: rgb(81, 25, 183);
+}
+
+.dial {
+  right: 40px;
+  bottom: 40px;
+  position: fixed;
+}

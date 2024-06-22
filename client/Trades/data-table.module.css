@@ -1,0 +1,91 @@
+.box {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.menuitem {
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+
+.stack {
+  display: flex;
+  text-align: right;
+  flex-direction: column;
+}
+
+.leverage {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.span {
+  width: 54px;
+  height: 24px;
+  display: flex;
+  font-weight: 700;
+  padding-left: 6px;
+  border-radius: 6px;
+  padding-right: 6px;
+  font-size: 0.75rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.green {
+  color: rgb(119, 237, 139);
+  background-color: rgba(34, 197, 94, 0.16);
+}
+
+.red {
+  color: rgb(255, 172, 130);
+  background-color: rgba(255, 86, 48, 0.16);
+}
+
+.key {
+  margin-left: auto !important;
+  white-space: nowrap;
+}
+
+.popover {
+  pointer-events: none;
+}
+
+.text {
+  width: 300px;
+  padding: 16px;
+}
+
+.popper {
+  z-index: 1051;
+  position: absolute;
+}
+
+.paper {
+  padding: 16px !important;
+  max-width: 250px;
+}
+
+.tag {
+  margin-bottom: 16px !important;
+}
+
+.flex {
+  gap: 10px;
+  display: flex;
+}
+
+.body2 {
+  gap: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.slider {
+  margin-top: 20px;
+  margin-left: 65px;
+  margin-right: 40px;
+}

@@ -1,0 +1,49 @@
+.card {
+  display: flex;
+  padding: 24px;
+  align-items: center;
+}
+
+.stack {
+  gap: 8px;
+  display: flex;
+  margin-top: 16px;
+  margin-bottom: 8px;
+  align-items: center;
+  flex-direction: row;
+}
+
+.mini_chart {
+  top: 40px;
+  right: 20px;
+  position: absolute;
+}
+
+.collapse {
+  padding: 24px;
+}
+
+.chart {
+  padding: 15px;
+}
+
+.divider {
+  border-style: solid !important;
+}
+
+.row_div {
+  display: flex;
+  flex-direction: row;
+}
+
+.box {
+  width: 100%;
+  padding-top: 16px;
+  text-align: center;
+  padding-bottom: 16px;
+}
+
+.vertical_divider {
+  border-width: 0px thin 0px 0px !important;
+  border-style: solid !important;
+}

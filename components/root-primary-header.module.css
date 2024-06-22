@@ -1,0 +1,48 @@
+.toolbar {
+  transition: height 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    background-color 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.container {
+  height: 100%;
+  display: flex !important;
+  align-items: center;
+}
+
+.nav {
+  gap: 40px;
+  display: flex;
+  margin-left: 70px;
+  flex-direction: row;
+}
+
+.links {
+  gap: 12px;
+  display: flex;
+  flex-direction: row;
+}
+
+.link {
+  padding: 0 !important;
+  height: 100% !important;
+  font-weight: 600;
+  font-size: 0.875rem;
+  transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.link:hover {
+  background-color: transparent !important;
+}
+.link::before {
+  width: 6px;
+  left: -15px;
+  height: 6px;
+  content: "";
+  opacity: 0.5;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.logo {
+  flex-shrink: 0;
+  padding: 24px 20px 16px;
+}

@@ -1,0 +1,19 @@
+.box {
+  display: flex;
+  max-width: 300px;
+  align-items: center;
+}
+
+.span {
+  height: 40px;
+  display: flex;
+  min-width: 40px;
+  margin-right: 12px;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon_button {
+  margin-right: 8px !important;
+}

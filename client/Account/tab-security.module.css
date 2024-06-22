@@ -1,0 +1,15 @@
+.container {
+  flex-wrap: wrap;
+}
+
+.card {
+  padding: 24px;
+}
+
+.stack {
+  gap: 24px;
+}
+
+.button {
+  margin-left: auto !important;
+}

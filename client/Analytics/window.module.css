@@ -1,0 +1,32 @@
+.stack {
+  display: flex;
+  margin-top: 24px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flex {
+  gap: 8px;
+  display: flex;
+  margin-top: 8px;
+  flex-direction: row;
+}
+
+.button {
+  height: 36px;
+}
+
+.conf_title {
+  padding: 24px;
+}
+
+.row {
+  display: flex;
+  margin-top: 16px;
+  justify-content: space-between;
+}
+
+.h6 {
+  padding: 24px;
+  font-weight: 700;
+}

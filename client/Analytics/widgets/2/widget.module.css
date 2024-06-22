@@ -1,0 +1,16 @@
+.div {
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.stack1 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-right: 1px dashed rgba(145, 158, 171, 0.2);
+}
+
+.stack2 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}

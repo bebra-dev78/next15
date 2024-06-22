@@ -1,0 +1,10 @@
+.stretch {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (width >= 1260px) {
+  .stretch {
+    max-width: 1260px;
+  }
+}

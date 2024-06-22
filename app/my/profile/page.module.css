@@ -1,0 +1,14 @@
+.container {
+  height: 70vh;
+  display: flex !important;
+  justify-content: center;
+}
+
+.stack {
+  text-align: center;
+  margin: auto !important;
+}
+
+.h3 {
+  margin-bottom: 40px !important;
+}

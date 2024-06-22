@@ -1,0 +1,14 @@
+.icon_button {
+  top: 32px;
+  left: 269px;
+  padding: 4px !important;
+  z-index: 1100 !important;
+  position: fixed !important;
+  backdrop-filter: blur(6px);
+  border: 1px dashed rgba(145, 158, 171, 0.24) !important;
+}
+
+.drawer {
+  z-index: 0 !important;
+  border-right: 1px dashed rgba(145, 158, 171, 0.24) !important;
+}

@@ -1,0 +1,21 @@
+body[data-theme="dark"] .base-Popper-root > .MuiPaper-root {
+  background-color: rgba(33, 43, 54, 0.9);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 2px 0px,
+    rgba(0, 0, 0, 0.24) -20px 20px 40px -4px;
+}
+body[data-theme="light"] .base-Popper-root > .MuiPaper-root {
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: rgba(145, 158, 171, 0.24) 0px 0px 2px 0px,
+    rgba(145, 158, 171, 0.24) -20px 20px 40px -4px;
+}
+
+.base-Popper-root > .MuiPaper-root {
+  padding: 4px;
+  margin-top: 1px;
+  border-radius: 10px;
+  background-size: 50%, 50%;
+  backdrop-filter: blur(20px);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right top, left bottom;
+  background-image: url("/images/cyan-blur.png"), url("/images/red-blur.png");
+}

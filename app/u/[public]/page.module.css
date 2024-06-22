@@ -1,0 +1,12 @@
+.main {
+  height: 100vh;
+  display: flex !important;
+  justify-content: center;
+}
+.main_stack {
+  margin: auto;
+  text-align: center;
+}
+.h3 {
+  margin-bottom: 40px !important;
+}
